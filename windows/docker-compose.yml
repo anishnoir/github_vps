@@ -21,4 +21,6 @@ services:
       - "3389:3389/udp"
     volumes:
       - "/tmp/windows/docker-windows-storage:/storage"
+      - "./shared:/shared"
     stop_grace_period: 2m
+ 
